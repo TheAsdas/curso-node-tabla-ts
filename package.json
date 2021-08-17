@@ -1,0 +1,24 @@
+{
+  "name": "03b-bases-node-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "tsc_watch": "npx tsc -w && npx ts-cleaner -d ./src -s ./ts -w",
+    "run_once": "node ./src/index.js",
+    "run_on_change": "npx nodemon ./src/index.js"
+  },
+  "keywords": [],
+  "author": "Gustavo",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "yargs": "^17.1.1"
+  },
+  "devDependencies": {
+    "@types/colors": "^1.2.1",
+    "@types/node": "^16.6.1",
+    "@types/yargs": "^17.0.2"
+  }
+}

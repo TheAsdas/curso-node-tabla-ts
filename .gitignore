@@ -1,0 +1,10 @@
+# output folder
+/output/*
+!/output/info.md
+
+# node modules
+/node_modules
+
+# src
+/src/*
+!/src/info.md
